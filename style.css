@@ -1,0 +1,39 @@
+/* ========================= */
+/* HEADER KIBANA */
+/* ========================= */
+.euiHeaderLogo__icon {
+  display: none !important;
+}
+
+.euiHeaderLogo {
+  background-image: url("https://raw.githubusercontent.com/muhamadfaishal/RRI-Integrated-Dashboard/main/LogoRRI.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 140px;
+}
+
+/* ========================= */
+/* HOME / WELCOME */
+/* ========================= */
+.kbnWelcomeLogo,
+.kbnWelcomeLogo__icon {
+  display: none !important;
+}
+
+.kbnWelcomeTitle::before {
+  content: "";
+  display: block;
+  background-image: url("https://raw.githubusercontent.com/muhamadfaishal/RRI-Integrated-Dashboard/main/LogoRRI.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+/* ========================= */
+/* LOGIN PAGE */
+/* ========================= */
+.loginWelcome__logo,
+.euiIcon--xxl {
+  display: none !important;
+}
